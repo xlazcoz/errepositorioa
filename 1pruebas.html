@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .slider {
+            width: 800px;
+            height: 400px;
+            overflow: hidden;
+            margin: 20px auto;
+        }
+        
+        .slides {
+            display: flex;
+            width: 300%;
+            animation: slide 9s infinite;
+        }
+        
+        .slide {
+            width: 33.33%;
+        }
+        
+        .slide img {
+            width: 100%;
+            height: 400px;
+        }
+        
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            30% { transform: translateX(0); }
+            35% { transform: translateX(-33.33%); }
+            65% { transform: translateX(-33.33%); }
+            70% { transform: translateX(-66.66%); }
+            100% { transform: translateX(-66.66%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="img/como entrenar a tu dragon.jpg" alt="Película 1">
+            </div>
+            <div class="slide">
+                <img src="img/minecraft.jpg" alt="Película 2">
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/800x400/0000ff/ffffff?text=PELICULA+3" alt="Película 3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
