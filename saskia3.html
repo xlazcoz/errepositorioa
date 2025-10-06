@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hau pelikula berrienak erosteko saskia da.">
+    <meta name="author" content="Juan Ortiz Salinas">
+    <title>Saskia</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(171, 171, 212);
+
+        }
+
+        header {
+            background-color: rgb(65, 65, 241);
+            color: white;
+            
+        }
+
+        footer {
+            background-color: rgb(65, 65, 241);
+            color: white;
+            margin-bottom: 0%;
+        }
+
+      
+
+        .nabigazioa {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .logoa {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logoa img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .logoa h1 {
+            font-size: 18px;
+        }
+
+        .menua ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+           
+        }
+
+        .menua li {
+            display: inline-block;
+        }
+
+        .menua a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid #000000;
+            margin-top: 20px;
+            background-color: rgb(171, 171, 212);
+        }
+
+        th,
+        td {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: rgb(65, 65, 241);
+            color: white;
+        }
+
+      
+
+        .boton {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: rgb(65, 65, 241);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+
+        }
+
+
+
+        footer {
+      padding: 20px;
+    }
+
+    .nabigazioa2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      color: white;
+    }
+
+    .logoa2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logoa2 img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .menua2 ul,
+    .legala ul,
+    .kontaktua ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menua2 li,
+    .legala li,
+    .kontaktua li {
+      margin-bottom: 6px;
+    }
+
+    .menua2 a,
+    .kontaktua a {
+      color: white;
+      text-decoration: none;
+      
+    }
+    .logoa2>h1{
+      font-size: 18px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nabigazioa">
+            <div class="logoa">
+                <img src="img/logoa.png" alt="Logoa">
+                <h1>Zinea</h1>
+            </div>
+
+            <div class="menua">
+                <ul>
+                    <li><a href="zinea.html">Orri Nagusia</a></li>
+                    <li><a href="kartelera.html">Kartelera</a></li>
+                    <li><a href="saskia.html">Saskia</a></li>
+                    <li><a href="informazioa.html">Informazioa</a></li>
+                    <li><a href="balorazioa.html">Balorazioa</a></li>
+                </ul>
+            </div>
+
+            <label class="hamburguesa material-symbols-outlined">menu</label>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Zure Saskia</h1>
+
+        <table>
+            <tr>
+                <th>Pelikula</th>
+                <th>Kopurua</th>
+                <th>Prezioa</th>
+                <th>Guztira</th>
+            </tr>
+            <tr>
+                <td>Pelikula 1</td>
+                <td>2</td>
+                <td>10€</td>
+                <td>20€</td>
+            </tr>
+            <tr>
+                <td>Pelikula 2</td>
+                <td>1</td>
+                <td>12€</td>
+                <td>12€</td>
+            </tr>
+            <tr>
+                <td>Pelikula 3</td>
+                <td>3</td>
+                <td>8€</td>
+                <td>24€</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="total">Guztira</td>
+                <td>56€</td>
+            </tr>
+        </table>
+
+        <a href="#" class="boton">Erosi</a>
+    </main>
+
+    <footer>
+        <nav class="nabigazioa2">
+            <div class="logoa2">
+                <img src="img/logoa.png" alt="Logoa">
+                <h1>Zinea</h1>
+            </div>
+
+            <div class="menua2">
+                <ul>
+                    <li><a href="zinea.html">Orrialde Nagusia</a></li>
+                    <li><a href="saskia.html">Saskia</a></li>
+                    <li><a href="kartelera.html">Kartelera</a></li>
+                    <li><a href="informazioa.html">Informazioa</a></li>
+                    <li><a href="balorazioa.html">Balorazioak</a></li>
+                </ul>
+            </div>
+
+            <div class="legala">
+                <ul>
+                    <li>Pribazitate politika</li>
+                    <li>Cookien politika</li>
+                    <li>Abixu legalak</li>
+                </ul>
+            </div>
+
+            <div class="kontaktua">
+                <ul>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="mailto:zineausurbi@gmail.com">Emaila</a></li>
+                    <li><a href="https://maps.app.goo.gl/CieaMsgqqAkhTbSA8">Helbidea</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+
+</html>
