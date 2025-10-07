@@ -156,6 +156,57 @@ tr {
     margin-bottom: 15px;
 }
 
+form {
+    padding: 25px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 2px solid #1e4a7e;
+    
+}
+
+.titulo-formulario {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    background: rgba(8, 20, 37, 0.8);
+    color: #e0e0e0;
+    border: none;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+button {
+    color: #000000;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.mapa {
+    text-align: center;
+}
 .footer1 {
     background: rgba(10, 25, 47, 0.95);
     border-top: 2px solid #1e4a7e;

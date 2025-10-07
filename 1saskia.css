@@ -1,0 +1,182 @@
+.footer1 {
+    background: rgba(10, 25, 47, 0.95);
+    border-top: 2px solid #1e4a7e;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.footer1 a {
+    color: #b0b0b0;
+    text-decoration: none;
+    
+}
+
+.footer1 a:hover {
+    color: #4fc3f7;
+}
+
+.footer1 .informazioa ul,
+.footer1 .legal ul,
+.footer1 .menua2 li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer2 {
+    background: rgba(10, 25, 47, 0.95);
+    border-top: 1px solid #1e4a7e;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0px;
+}
+
+.footer2 a {
+    color: #b0b0b0;
+    text-decoration: none;
+    
+}
+
+.footer2 a:hover {
+    color: #4fc3f7;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e0e0e0;
+    gap: 12px;
+}
+
+.logo img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.logos ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.logos li {
+    display: flex; 
+    align-items: center;
+}
+
+.logos li img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logos li img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#0c2f5a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(10, 25, 47, 0.95);
+    border-bottom: 2px solid #1e4a7e;
+    padding: 15px 30px;
+    top: 0;
+    
+}
+
+header a:hover {
+    color: #4fc3f7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin:  auto;
+}
+
+.material-symbols-outlined {
+    font-size: 32px;
+    color: #4fc3f7;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: #0d4863;
+}
+
+.menua {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menua li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 6px;
+
+}
+
+.menua li a:hover {
+    color: #4fc3f7;
+    background: rgba(79, 195, 247, 0.1);
+}
+
+
+.logoa a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e0e0e0;
+    gap: 12px;
+}
+
+.logoa img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+
+}
+
+.logoa img:hover {
+    transform: scale(1.05);
+}
+
+.logoa h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
