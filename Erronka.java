@@ -1,17 +1,15 @@
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Erronka {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        ArrayList<String> pelikulak = new ArrayList<String>();
-        String[] pelikula={"Lilo y Stitch","Una película de Minecraft","Mufasa: El rey león",
-                            "Cómo entrenar a tu dragón","Capitán América: Brave New World",
-                            "Conclave","Sonic 3: La película","Misión: Imposible. Sentencia Final",
-                            "Blancanieves","Thunderbolt","Padre no hay más que uno 5",
-                            "Wolfgang (Extraordinario)","El casoplón","Un funeral de locos","Sirat"};
 
-        ArrayList<String> gelak = new ArrayList<String>();
+        String[] pelikula={"Lilo y Stitch","Una pelicula de Minecraft","Mufasa: El rey leon",
+                            "Como entrenar a tu dragon","Capitan America: Brave New World",
+                            "Conclave","Sonic 3: La pelicula","Mision: Imposible. Sentencia Final",
+                            "Blancanieves","Thunderbolt","Padre no hay más que uno 5",
+                            "Wolfgang (Extraordinario)","El casoplon","Un funeral de locos","Sirat"};
+
         String[] gela ={"Umeen gela","Superheroien gela","Thriller gela","Zientzia fikzioko gela","Zientzia fikzioko gela"};
 
         boolean seguitu=true;
@@ -53,10 +51,37 @@ public class Erronka {
                 System.out.println("1- Pelikula kopurua eta hauen izenak.");
                 System.out.println("2- Gela kopurua eta hauen izenak.");
                 int opzioa=sc.nextInt();
+                sc.nextLine();
+
                 if(opzioa==1){
                     System.out.println("Pelikularen kopurua: "+pelikula.length);
                     for(String p : pelikula){
                         System.out.println("Haien izenak: "+p);
+                    }
+
+                    System.out.println("Aukeratu erosi nahi duzun pelikula:");
+                    String erosi=sc.nextLine();
+
+                    boolean aurkituta=false;
+
+                    for(String p:pelikula){
+                        if(p.equalsIgnoreCase(erosi)){
+                            aurkituta=true;
+
+                            System.out.println("Zenbat sarrera erosi nahi dituzu?");
+                            int sarrerak=sc.nextInt();
+                            System.out.println(sarrerak+" erosi dituzu. Ondo pasa!!!");
+
+                            if(sarrerak>4){
+                                System.out.println("Ezin dira 4 sarrera baino gehiago erosi");
+                                break;
+                            }
+                        }
+                    }
+
+                    if(!aurkituta){
+                        System.out.println("Ez da aurkitu pelikula hori");
+                        break;
                     }
                 }else{
                     System.out.println("Pelikularen kopurua: "+gela.length);
@@ -64,9 +89,6 @@ public class Erronka {
                         System.out.println("Haien izenak: "+g);
                     }
                 }
-
-                System.out.println("Aukeratu erosi nahi duzun pelikula:");
-                String erosi=sc.nextLine();
 
                 break;
 
