@@ -90,6 +90,71 @@
 
 
 
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.formularioa-sarrerak {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(30, 58, 95, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #1e4a7e;
+}
+
+.formulario {
+    margin-bottom: 30px;
+}
+
+.formulario h3 {
+    color: #4fc3f7;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #1e4a7e;
+    padding-bottom: 5px;
+}
+
+
+
+
+.caja-formulario {
+    margin-bottom: 15px;
+}
+
+.caja-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.caja-formulario input,
+.caja-formulario select {
+    width: 100%;
+    padding: 10px;
+    background: rgba(10, 25, 47, 0.8);
+    border: 1px solid #1e4a7e;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+.botoia {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.erosi {
+    background: #4fc3f7;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 * {
     margin: 0;
