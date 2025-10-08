@@ -81,11 +81,12 @@ public class Erronka {
 
                             System.out.println("Zenbat sarrera erosi nahi dituzu?"); //... eroten dira sarrerak
                             int sarrerak=sc.nextInt();
-                            System.out.println(sarrerak+" erosi dituzu "+erosi+". Ondo pasa!!!"); //erresumen bat jartzen da
 
                             if(sarrerak>4){
                                 System.out.println("Ezin dira 4 sarrera baino gehiago erosi"); //sarrerak 4 baino gehiago badira, dena berriz egin behar da
                                 break;
+                            }else{
+                                System.out.println(sarrerak+" erosi dituzu "+erosi+" sarrera. Ondo pasa!!!"); //erresumen bat jartzen da
                             }
                         }
                     }
