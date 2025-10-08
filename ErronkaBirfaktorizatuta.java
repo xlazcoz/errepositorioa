@@ -62,13 +62,13 @@ public class ErronkaBirfaktorizatuta {
         System.out.println("3- Kokapena ikusi.");
         System.out.println("4- Irekiera ordutegia ikusi.");
         System.out.println("5- Irtetzeko aukera.");
-        System.out.print("\nAukeratu bat: ");
+        System.out.println("\nAukeratu bat: ");
         return sc.nextInt();
     }
 
     public static void aukeratuEguna(Scanner sc, String[] pelikula) {
         sc.nextLine();
-        System.out.print("Aukeratu egun bat (larunbata edo igandea): ");
+        System.out.println("Aukeratu egun bat (larunbata edo igandea): ");
         String eguna = sc.nextLine();
 
         if (eguna.equalsIgnoreCase("larunbata") || eguna.equalsIgnoreCase("igandea")) {
@@ -102,14 +102,14 @@ public class ErronkaBirfaktorizatuta {
             System.out.println("- " + p);
         }
 
-        System.out.print("Aukeratu erosi nahi duzun pelikula: ");
+        System.out.println("Aukeratu erosi nahi duzun pelikula: ");
         String erosi = sc.nextLine();
         boolean aurkituta = false;
 
         for (String p : pelikula) {
             if (p.equalsIgnoreCase(erosi)) {
                 aurkituta = true;
-                System.out.print("Zenbat sarrera erosi nahi dituzu? ");
+                System.out.println("Zenbat sarrera erosi nahi dituzu? ");
                 int sarrerak = sc.nextInt();
 
                 if (sarrerak > 4) {
@@ -137,7 +137,7 @@ public class ErronkaBirfaktorizatuta {
         sc.nextLine();
         System.out.println("Gure kokapena hau da:");
         System.out.println("Bo. Txiki-Erdi, 7, 20170 Usurbil, Gipuzkoa");
-        System.out.print("Zer egin nahi duzu? Atera edo beste aukera bat aukeratu? (atera/segui): ");
+        System.out.println("Zer egin nahi duzu? Atera edo beste aukera bat aukeratu? (atera/segui): ");
         String selekzioa = sc.nextLine();
 
         if (selekzioa.equalsIgnoreCase("atera")) {
