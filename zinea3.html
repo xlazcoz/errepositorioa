@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+<head>
+  <title>Zinea</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hau da pelikula berrienak dituen zinea.">
+  <meta name="author" content="Juan Ortiz Salinas">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+  <style>
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: rgb(171, 171, 212);
+      margin: 0;
+      padding: 0;
+    }
+
+    header,
+    footer {
+      background-color: rgb(65, 65, 241);
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .nabigazioa {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logoa {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logoa img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .logoa h1 {
+      font-size: 18px;
+    }
+
+    .menua ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      
+    }
+
+    .menua li {
+      display: inline-block;
+    }
+
+    .menua a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+    }
+
+    .hamburguesa {
+      font-size: 28px;
+      color: white;
+      display: flex;
+    }
+
+   
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    main h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: rgb(20, 20, 80);
+    }
+
+    .pelikulak {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .pelikulak img {
+      border-radius: 10px;
+      width: 300px;
+      height: 400px;
+    }
+
+    .pelikulak p {
+      margin-top: 5px;
+      font-weight: bold;
+      color: rgb(30, 30, 70);
+    }
+
+   
+    footer {
+      padding: 20px;
+    }
+
+    .nabigazioa2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      color: white;
+    }
+
+    .logoa2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logoa2 img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .menua2 ul,
+    .legala ul,
+    .kontaktua ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menua2 li,
+    .legala li,
+    .kontaktua li {
+      margin-bottom: 6px;
+    }
+
+    .menua2 a,
+    .kontaktua a {
+      color: white;
+      text-decoration: none;
+      
+    }
+    .logoa2>h1{
+      font-size: 18px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="nabigazioa">
+      <div class="logoa">
+        <img src="img3/logoa.png" alt="Logoa">
+        <h1>Zinea</h1>
+      </div>
+
+      <div class="menua">
+        <ul>
+          <li><a href="zinea3.html">Orri Nagusia</a></li>
+          <li><a href="kartelera3.html">Kartelera</a></li>
+          <li><a href="saskia3.html">Saskia</a></li>
+          <li><a href="informazioa3.html">Informazioa</a></li>
+          <li><a href="balorazioa3.html">Balorazioa</a></li>
+        </ul>
+      </div>
+
+      <label class="hamburguesa material-symbols-outlined">menu</label>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Pelikula Nabarmenduenak:</h1>
+    <div class="pelikulak">
+      <div>
+        <img src="img3/lilo.jpg" alt="Lilo y Stitch">
+        <p>Lilo & Stitch</p>
+      </div>
+      <div>
+        <img src="img3/cap america.jpg" alt="Capitán América: Brave New World">
+        <p>Capitán América: Brave New World</p>
+      </div>
+      <div>
+        <img src="img3/como entrenar a tu dragon.jpg" alt="Cómo entrenar a tu dragón">
+        <p>Cómo entrenar a tu dragón</p>
+      </div>
+      <div>
+        <img src="img3/minecraft.jpg" alt="Una película de Minecraft">
+        <p>Minecraft: La película</p>
+      </div>
+      <div>
+        <img src="img3/conclave.jpg" alt="Conclave">
+        <p>Conclave</p>
+      </div>
+      <div>
+        <img src="img3/mufasa.jpg" alt="Mufasa: El rey león">
+        <p>Mufasa: El Rey León</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <nav class="nabigazioa2">
+      <div class="logoa2">
+        <img src="img3/logoa.png" alt="Logoa" width="30" height="30">
+        <h1>Zinea</h1>
+      </div>
+
+      <div class="menua2">
+        <ul>
+          <li><a href="zinea3.html">Orrialde Nagusia</a></li>
+          <li><a href="saskia3.html">Saskia</a></li>
+          <li><a href="kartelera3.html">Kartelera</a></li>
+          <li><a href="Informazioa3.html">Informazioa</a></li>
+          <li><a href="Balorazioak3.html">Balorazioak</a></li>
+        </ul>
+      </div>
+
+      <div class="legala">
+        <ul>
+          <li>Pribazitate politika</li>
+          <li>Cookien politika</li>
+          <li>Abixu legalak</li>
+        </ul>
+      </div>
+
+      <div class="kontaktua">
+        <ul>
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+          <li><a href="mailto:zineausurbi@gmail.com">Emaila</a></li>
+          <li><a href="https://maps.app.goo.gl/CieaMsgqqAkhTbSA8">Helbidea</a></li>
+        </ul>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html

@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #0a1f3a 0%, #1e3a5f 100%);
+    background:#0c2f5a;
     color: #e0e0e0;
     line-height: 1.6;
 }
@@ -69,6 +69,7 @@ nav {
 
 .logoa img {
     border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
 .logoa img:hover {
@@ -164,7 +165,8 @@ nav {
     color: #0a1f3a;
 }
 
-footer {
+
+.footer1 {
     background: rgba(10, 25, 47, 0.95);
     border-top: 2px solid #1e4a7e;
     color: #b0b0b0;
@@ -175,22 +177,44 @@ footer {
     margin-top: 50px;
 }
 
-footer a {
+.footer1 a {
     color: #b0b0b0;
     text-decoration: none;
     
 }
 
-footer a:hover {
+.footer1 a:hover {
     color: #4fc3f7;
 }
 
-footer .informazioa ul,
-footer .legal ul {
+.footer1 .informazioa ul,
+.footer1 .legal ul,
+.footer1 .menua li {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.footer2 {
+    background: rgba(10, 25, 47, 0.95);
+    border-top: 1px solid #1e4a7e;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0px;
+}
+
+.footer2 a {
+    color: #b0b0b0;
+    text-decoration: none;
+    
+}
+
+.footer2 a:hover {
+    color: #4fc3f7;
 }
 
 .logo a {
@@ -203,8 +227,33 @@ footer .legal ul {
 
 .logo img {
     border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
 .logo img:hover {
     transform: scale(1.05);
 }
+
+.logos ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.logos li {
+    display: flex; 
+    align-items: center;
+}
+
+.logos li img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logos li img:hover {
+    transform: scale(1.1);
+}
+
+

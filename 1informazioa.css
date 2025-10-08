@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#0c2f5a;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(10, 25, 47, 0.95);
+    border-bottom: 2px solid #1e4a7e;
+    padding: 15px 30px;
+    top: 0;
+}
+
+header a:hover {
+    color: #4fc3f7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.material-symbols-outlined {
+    font-size: 32px;
+    color: #4fc3f7;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: #0d4863;
+}
+
+.menua {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menua li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.menua li a:hover {
+    color: #4fc3f7;
+    background: rgba(79, 195, 247, 0.1);
+}
+
+.logoa a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e0e0e0;
+    gap: 12px;
+}
+
+.logoa img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.logoa img:hover {
+    transform: scale(1.05);
+}
+
+.logoa h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.titulos{
+    margin-top:20px ;
+    text-align: center;
+}
+.nor {
+    text-align: center;
+    background:#0c2f5a;
+    margin: 50px;
+    margin-top: 20px;
+     border-bottom: 1px solid #1e4a7e ;
+    padding-bottom: 30px;
+
+}
+.preguntas {
+    flex: 6;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 98%;
+    background:#0c2f5a;
+    margin: 20px;
+    border-bottom: 1px solid #1e4a7e ;
+    padding-bottom: 30px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    background:#0a1f3a;
+    border-radius: 10px;
+}
+
+tr {
+    border-bottom: 2px solid #0c2f5a;
+}
+
+
+.preguntas summary {
+    color: #4fc3f7;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+.preguntas summary:hover {
+    background:#1e3a5f;
+}
+
+.preguntas p {
+    padding: 15px;
+    margin-top: 10px;
+    background:#0a1f3a;
+    border-radius: 5px;
+}
+
+.kontaktua {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+.kontaktua a {
+    text-decoration: none;
+    color: #e0e0e0; 
+}
+.kontaktua a:hover{
+    text-decoration: none;
+    color: #4fc3f7;
+}
+.kontaktua li {
+    margin-bottom: 15px;
+}
+
+form {
+    padding: 25px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    border: 2px solid #1e4a7e;
+    
+}
+
+.titulo-formulario {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.formulario {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    background: rgba(8, 20, 37, 0.8);
+    color: #e0e0e0;
+    border: none;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4fc3f7;
+    color: #000000;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.mapa {
+    text-align: center;
+}
+.footer1 {
+    background: rgba(10, 25, 47, 0.95);
+    border-top: 2px solid #1e4a7e;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.footer1 a {
+    color: #b0b0b0;
+    text-decoration: none;
+    
+}
+
+.footer1 a:hover {
+    color: #4fc3f7;
+}
+
+.footer1 .informazioa ul,
+.footer1 .legal ul,
+.footer1 .menua2 li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer2 {
+    background: rgba(10, 25, 47, 0.95);
+    border-top: 1px solid #1e4a7e;
+    color: #b0b0b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0px;
+}
+
+.footer2 a {
+    color: #b0b0b0;
+    text-decoration: none;
+    
+}
+
+.footer2 a:hover {
+    color: #4fc3f7;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #e0e0e0;
+    gap: 12px;
+}
+
+.logo img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.logos ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.logos li {
+    display: flex; 
+    align-items: center;
+}
+
+.logos li img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logos li img:hover {
+    transform: scale(1.1);
+}
+
+
