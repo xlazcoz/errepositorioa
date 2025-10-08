@@ -2,17 +2,125 @@
 <html lang="eu">
 
 <head>
-    <title>Kartelera</title>
+    <title>Informazioa</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale= 1.0">
     <meta name="description" content="hemen gure saskia.">
     <meta name="author" content="Juan Ortiz Salinas">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(171, 171, 212);
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        footer {
+            background-color: rgb(65, 65, 241);
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .nabigazioa {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logoa {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logoa img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .logoa h1 {
+            font-size: 18px;
+        }
+
+        .menua ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+
+        }
+
+        .menua li {
+            display: inline-block;
+        }
+
+        .menua a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .hamburguesa {
+            font-size: 28px;
+            color: white;
+            display: flex;
+        }
+
+       .Galderak summary {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            color: rgb(20, 20, 80);
+            font-size: 20px;
+        }
+        
+    </style>
 </head>
+
 <body>
     <header>
+        <nav class="nabigazioa">
+            <div class="logoa">
+                <img src="img3/logoa.png" alt="Logoa">
+                <h1>Zinea</h1>
+            </div>
 
+            <div class="menua">
+                <ul>
+                    <li><a href="zinea3.html">Orri Nagusia</a></li>
+                    <li><a href="kartelera3.html">Kartelera</a></li>
+                    <li><a href="saskia3.html">Saskia</a></li>
+                    <li><a href="informazioa3.html">Informazioa</a></li>
+                    <li><a href="balorazioa3.html">Balorazioa</a></li>
+                </ul>
+            </div>
+
+            <label class="hamburguesa material-symbols-outlined">menu</label>
+        </nav>
     </header>
     <main>
+        <div class="Galderak">
+            <details>
+                <summary>Galdera ohikoak</summary>
+                <details>
+                    <summary>1. Non ikus ditzaket filmen ordutegiak?</summary>
+                    <p>Gure webgunean edo aplikazio ofizialean eguneratuta daude egunero. Halaber, zinema-aretoaren
+                        sarrerako pantailetan ikus daitezke.</p>
+                </details>
+                <details>
+                    <summary>2. Sarrerak online eros daitezke?</summary>
+                    <p>Bai, gure webgunean edo app-ean eros ditzakezu. Aukeratu filma, ordutegia eta zure eserlekua.</p>
+                </details>
+            </details>
+        </div>
 
     </main>
     <footer>
