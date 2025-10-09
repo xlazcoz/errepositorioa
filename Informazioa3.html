@@ -54,7 +54,6 @@
             justify-content: center;
             align-items: center;
             gap: 25px;
-
         }
 
         .menua li {
@@ -74,7 +73,6 @@
         }
 
         .izenburua summary {
-            list-style: none;
             display: flex;
             justify-content: center;
             margin-top: 50px;
@@ -95,6 +93,56 @@
             color: white;
             display: flex;
             justify-content: center;
+        }
+
+        .info summary {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            color: rgb(20, 20, 80);
+            font-size: 25px;
+        }
+
+        footer {
+            padding: 20px;
+        }
+
+        .nabigazioa2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            color: white;
+        }
+
+        .logoa2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logoa2 img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .menua2 ul,
+        .legala ul,
+        .kontaktua ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menua2 a,
+        .kontaktua a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .logoa2>h1 {
+            font-size: 18px;
         }
     </style>
 </head>
@@ -122,6 +170,20 @@
     </header>
     <main>
         <div class="izenburua">
+            <div class="info">
+                <details>
+                    <summary>
+                        <strong>Nor Gara?</strong>
+                    </summary>
+                    <p style="color:white; text-align:center;">
+                        Gure zinema esperientzia paregabea eskaintzen duen tokia da. Zinema modernoen teknologiarekin,
+                        erosotasuna eta kalitatezko ikus-entzunezko esperientzia eskaintzen ditugu.
+                    </p>
+                </details>
+            </div>
+        </div>
+
+        <div class="izenburua">
             <details>
                 <summary>
                     <strong>Galdera ohikoak</strong>
@@ -140,47 +202,111 @@
                     <details>
                         <summary>3. Alda itzuli sarrera bat?</summary>
                         <p>Ez dira itzulketak egiten, baina saioa bertan behera geratzen bada edo arazo tekniko bat
-                            gertatzen bada, dirua bueltatuko dizugu.
-                        </p>
+                            gertatzen bada, dirua bueltatuko dizugu.</p>
                     </details>
                     <details>
                         <summary>4. Badago deskonturik ikasleentzat edo adinekoentzat?</summary>
                         <p>Bai, astearte eta ostegunetan prezio bereziak eskaintzen ditugu ikasle, erretiratu eta
-                            langabeentzat (agiria erakutsiz).
-                        </p>
+                            langabeentzat (agiria erakutsiz).</p>
                     </details>
                     <details>
                         <summary>5. Kanpoko janaria edo edaria eraman al daiteke?</summary>
-                        <p>Ez, gure kafetegian edo dendan erositako produktuak soilik kontsumitu daitezke.
-                        </p>
+                        <p>Ez, gure kafetegian edo dendan erositako produktuak soilik kontsumitu daitezke.</p>
                     </details>
                     <details>
                         <summary>6. Eserlekuak zenbakituak al dira?</summary>
-                        <p>Bai, sarrera erosterakoan zure butaka aukeratu dezakezu, bai online bai leihatilan.
-                        </p>
+                        <p>Bai, sarrera erosterakoan zure butaka aukeratu dezakezu, bai online bai leihatilan.</p>
                     </details>
                     <details>
                         <summary>7. Mugikortasun murriztua duten pertsonentzako sarbide egokituak al daude?</summary>
-                        <p>Bai, gure areto guztiak egokituak daude, eta leku erreserbatuak ere badaude.
-                        </p>
+                        <p>Bai, gure areto guztiak egokituak daude, eta leku erreserbatuak ere badaude.</p>
                     </details>
                     <details>
                         <summary>8. Filmak jatorrizko bertsioan edo azpitituluekin eskaintzen dituzue?</summary>
                         <p>Bai, “VOSE” (Jatorrizko bertsioa euskaraz/espainolez azpititulatua) etiketarekin agertzen
-                            dira.
-                        </p>
+                            dira.</p>
                     </details>
+                </div>
             </details>
         </div>
+        <div class="Galderak">
+            <div class="izenburua">
+                <details>
+                    <summary>
+                        Ordutegia
+                    </summary>
+
+                    <p>Astelehena - Osteguna: 15:00 - 23:00</p>
+                    <p>Ostirala: 15:00 - 00:00</p>
+                    <p>Larunbata eta Igandea: 12:00 - 00:00</p>
+                </details>
+            </div>
+            <details>
+                <summary>Zerbitzuak</summary>
+                <p>🎬 3D eta 4K proiekzioak</p>
+                <p>☕ Kafetegia eta janari azkarra</p>
+                <p>🎉 Areto pribatuak ekitaldietarako</p>
+                <p>🎟️ Deskontuak ikasle eta taldeentzat</p>
+                <p>♿ Sarbide egokitua mugikortasun urriko pertsonentzat</p>
+            </details>
+
+            <details>
+                <summary>Gure Sare Sozialak</summary>
+                <p><a href="#" style="color:white;">🌐 Webgunea</a></p>
+                <p><a href="#" style="color:white;">📘 Facebook</a></p>
+                <p><a href="#" style="color:white;">📸 Instagram</a></p>
+                <p><a href="#" style="color:white;">🐦 X (Twitter)</a></p>
+            </details>
         </div>
         <div class="izenburua">
             <details>
                 <summary>
-                    <strong>sex </strong>
+                    <strong> Zinemaren Informazio Gehiago</strong>
                 </summary>
+                <div class="Galderak">
+                    <p><strong> Helbidea:</strong> Donostia Kalea 12, 20005 Donostia, Gipuzkoa</p>
+                    <p><strong> Telefonoa:</strong> +34 943 123 456</p>
+                    <p><strong> Emaila:</strong> info@zinea.eus</p>
+
             </details>
         </div>
+
     </main>
+
     <footer>
+        <nav class="nabigazioa2">
+            <div class="logoa2">
+                <img src="img3/logoa.png" alt="Logoa" width="30" height="30">
+                <h1>Zinea</h1>
+            </div>
+
+            <div class="menua2">
+                <ul>
+                    <li><a href="zinea3.html">Orri Nagusia</a></li>
+                    <li><a href="kartelera3.html">Kartelera</a></li>
+                    <li><a href="saskia3.html">Saskia</a></li>
+                    <li><a href="informazioa3.html">Informazioa</a></li>
+                    <li><a href="balorazioa3.html">Balorazioa</a></li>
+                </ul>
+            </div>
+
+            <div class="legala">
+                <ul>
+                    <li>Pribazitate politika</li>
+                    <li>Cookien politika</li>
+                    <li>Abixu legalak</li>
+                </ul>
+            </div>
+
+            <div class="kontaktua">
+                <ul>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="mailto:zineausurbi@gmail.com">Emaila</a></li>
+                    <li><a href="https://maps.app.goo.gl/CieaMsgqqAkhTbSA8">Helbidea</a></li>
+                </ul>
+            </div>
+        </nav>
     </footer>
 </body>
+
+</html>
