@@ -54,7 +54,6 @@
             justify-content: center;
             align-items: center;
             gap: 25px;
-
         }
 
         .menua li {
@@ -73,8 +72,60 @@
             display: flex;
         }
 
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 40px 10px;
+        }
 
+        form {
+            background-color: rgb(94, 94, 226);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
 
+        form h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 5px;
+        }
+
+        button {
+            background-color: white;
+            color: rgb(65, 65, 241);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        button:hover {
+            background-color: rgb(230, 230, 255);
+        }
 
         footer {
             padding: 20px;
@@ -117,7 +168,6 @@
         .kontaktua a {
             color: white;
             text-decoration: none;
-
         }
 
         .logoa2>h1 {
@@ -147,10 +197,34 @@
             <label class="hamburguesa material-symbols-outlined">menu</label>
         </nav>
     </header>
-    <main>
-        
 
+    <main>
+        <form>
+            <h2>Zure iritzia eman </h2>
+
+            <label for="izena">Izena:</label>
+            <input type="text" name="izena">
+
+            <label for="emaila">Emaila:</label>
+            <input type="email"  name="emaila">
+
+            <label for="balorazioa">Balorazioa:</label>
+            <select  name="balorazioa">
+                <option value=""></option>
+                <option value="1">1 - Txarra</option>
+                <option value="2">2 - Eskasa</option>
+                <option value="3">3 - Ongi</option>
+                <option value="4">4 - Oso ongi</option>
+                <option value="5">5 - Bikaina!</option>
+            </select>
+
+            <label for="iruzkina">Iruzkinak:</label>
+            <textarea name="iruzkina"></textarea>
+
+            <button type="submit">Bidali</button>
+        </form>
     </main>
+
     <footer>
         <nav class="nabigazioa2">
             <div class="logoa2">
@@ -186,3 +260,4 @@
         </nav>
     </footer>
 </body>
+</html>
