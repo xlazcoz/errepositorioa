@@ -189,7 +189,7 @@ nav {
 
 .footer1 .informazioa ul,
 .footer1 .legal ul,
-.footer1 .menua li {
+.footer1 .menua2 li {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -255,5 +255,9 @@ nav {
 .logos li img:hover {
     transform: scale(1.1);
 }
+
+
+
+
 
 
